@@ -44,7 +44,8 @@ public class LockTest {
 class Output {
 	private Lock outputLock = new ReentrantLock();
 //	private ReadWriteLock rwl = new ReentrantReadWriteLock();
-
+//  add remark 201704adsfdsafdsafadfads
+// dsfsdfdskf dsf ds 
 	public void output(String name) {
 		outputLock.lock();
 		try {
